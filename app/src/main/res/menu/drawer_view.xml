@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/star_icon"
+            android:title="Rate Us!" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_icon"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback_icon"
+            android:title="Feedback" />
+
+        <item
+          android:id="@+id/nav_exit"
+            android:icon="@drawable/exit_icon"
+            android:title="Exit" />
+
+
+    </group>
+</menu>
